@@ -1,1 +1,22 @@
+body{
+ background: rgb(188, 160, 231);
+}
 
+.title {
+ color:blueviolet;
+}
+.continer {
+ background: white;
+}
+
+.p {
+ color: grey;
+}
+
+.spacial_continer {
+ background: rgb(0, 0, 0);
+}
+
+.spacial_continer p {
+ color: white;
+}
