@@ -1,1 +1,93 @@
+/* אסימון חשוב בפרויקט הנוכחי הוא כאשר יש לנו שני אלמנטים שיש להם אותם תכונות אני בונים אותם בצורה שתהיה לנו דרך לטארגט את התכונות המשותפות ואז את התכנות האישיות
+ראה card card-1*/
 
+
+body { /*alwyes start with body */
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+ background: #f1f5f9;
+}
+
+ .card {
+ width: 20rem;
+ margin: auto; /* with margin auto and margin-top i center the card in the middle of the page */
+margin-top: 15vh;
+background: white;
+text-align: center;
+/* To center the content */
+}
+
+.card{ /* instractor card */
+ background: white;
+ padding: 1.5rem 2rem; /* padding-top and padding-buttom 1.5rem. padding-right and padding-left 2rem*/
+ text-align: center; /* moveing the content to the center*/
+ max-width: 300px; /* maximun width is 300px */
+ margin: 3rem;  /* moveing the elemnt litle bit to the center */
+ border-radius: 0.5rem;
+ border: 1px solid black;
+ margin: 3rem auto; /* placeing them in the center */
+}
+
+.card-1{ /* override the border-color */
+ border-color: #ff69a6;
+}
+
+.icon {
+ width:40px;
+ height: 40px;
+ border-radius: 50%;
+ margin:auto; /* Place it in the middle of the element */
+}
+
+.card-1 .icon { /* only .icon element inside card-1 will get the color */
+ background: #ff69a6;
+}
+
+.title {
+ font-size: 25px;
+ font-weight: bold;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title { /* instractor solution */
+ text-transform: capitalize;
+ letter-spacing: 2px;
+}
+
+.text {
+ line-height: 1.5;
+ color:grey;
+}
+
+.button {
+  color:rgb(255, 0, 208);
+  background: rgba(255, 192, 203,0.5);
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.button { /* instractor solution*/
+ text-transform: capitalize;
+ border: transparent;
+ border-radius: 0.5rem;
+ padding: 0.5rem 1rem;
+ letter-spacing: 2px;
+}
+.blue {
+  background: #ecf4ff;
+   color: #68a3ff;
+}
+.pink {
+ background: #ffe8f1;
+  color: #ff69a6;
+}
+
+.card-2 .icon {
+ background: #68a3ff;
+}
+
+.card-2 {
+ border-color: #68a3ff;
+}
