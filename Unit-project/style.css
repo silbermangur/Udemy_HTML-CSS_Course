@@ -1,0 +1,61 @@
+
+* {
+ /*  This is a way to cancle the default gap that the browser have*/
+ margin: 0;
+}
+
+#navbar {
+ height: 5rem;
+ background: white;
+}
+.logo {
+ font-size: 20px;
+ color: #ef4036;
+}
+.hero {
+ min-height: calc(100vh - 5rem);
+ background: #222;
+ color: #fff;
+}
+.hero span {
+ color:#ef4036;
+ font-size: 30px;
+}
+
+.hero-btn {
+ background: #ef4036;
+}
+
+/* My solution start 
+.continer-logo {
+ background: white;
+ height: 30vh;
+}
+
+.continer-logo h1 {
+ color:red;
+}
+
+.baner {
+ background: black;
+ height: calc(100vh - 30vh);
+}
+#title {
+ color:rgba(255, 0, 0, 0.8);
+ text-transform: capitalize;
+}
+
+#sub-title {
+ color:white;
+}
+
+#pargraph {
+ color: gray;
+}
+
+button {
+ color: white;
+ background: red;
+}
+
+my solution end*/
