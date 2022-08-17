@@ -1,1 +1,35 @@
+* { /* reset the setup */
+ margin: 0; 
+}
 
+body {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ background: #f1f5f9;
+ line-height: 1.6;
+}
+
+.section {
+ padding: 5rem;
+ background: #fff;
+}
+
+.section-title {
+ text-align: center;
+ text-transform: capitalize;
+}
+
+.title-underline {
+ height: 2px;
+ width: 50px;
+ background: turquoise;
+ /*The margin will put the content in the center */
+ margin: 0 auto; /* top,button - 0 and right-left - auto*/
+ margin: 0 auto 2rem auto; /*top - 0 , right- auto ,down-2rem,left-auto */
+}
+
+.section-center {
+ margin:0 auto;
+ width: 90vw;
+ border: 2px solid red;
+ max-width: 1170px;
+}
